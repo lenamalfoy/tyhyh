@@ -1,0 +1,51 @@
+body {
+    font-family: sans-serif;
+    
+    
+}
+h1{
+    background-color: lightgreen;
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+img{
+    flex-wrap: wrap;
+}
+
+div{
+    display: flex;
+    justify-content: space-around; 
+
+}
+h2{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+h1{
+    border: 5px solid black;
+}
+.post{
+    background-image: linear-gradient(white, blue, red );
+}
+footer{
+    background-image: linear-gradient(	#5B4CD8, darkslateblue );
+}
+div:hover{
+    border: 10px dotted black;
+}
+li{
+    padding-top: 5px;
+}
+.link-nav{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: lightgrey;
+    margin: 7px;
+}
+a:hover{
+   box-shadow: 3px 5px 10px rgb(38, 10, 161);
+}
